@@ -1,0 +1,13 @@
+package fes.aragon;
+
+public class Principal {
+
+	public static void main(String[] args) { //Esto es el menu principal
+		Computadora computadora1 = new Computadora(60000.00);
+		System.out.println(computadora1.costo);
+		System.out.println(computadora1.getModelo());
+		
+
+	}
+
+}

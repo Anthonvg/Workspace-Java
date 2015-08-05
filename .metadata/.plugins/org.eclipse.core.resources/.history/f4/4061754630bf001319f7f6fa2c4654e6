@@ -1,0 +1,45 @@
+package fes.aragon.swing;
+
+import java.awt.Color;
+import java.awt.Desktop.Action;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
+public class Lamina2 extends JPanel {
+
+	public Lamina2(){
+		//se crean las fuentes de eventos (botones)
+		JButton botonAmarillo = new JButton ("Amarillo");
+		JButton botonAzul = new JButton ("Azul");
+		JButton botonRojo = new JButton ("Rojo");
+		//se añaden los botones a la lamina
+		
+		add(botonAmarillo);
+		add(botonAzul);
+		add(botonRojo);
+		
+		//se crean las acciones de botones
+		AccionColor accionAmarillo = new AccionColor(Color.YELLOW); 
+		AccionColor accionAzul = new AccionColor(Color.BLUE);
+		AccionColor accionRojo = new AccionColor(Color.RED);
+		
+		//se asocian los oyentes de eventos con los botones
+		botonAmarillo.addActionListener(accionAmarillo);
+		botonAmarillo.addActionListener(accionAzul);
+		botonAmarillo.addActionListener(accionRojo);
+	}
+
+	private class AccionColor implements ActionListener{
+		private Color colorFondo;
+		public AccionColor(Color c) {
+			colorFondo = c;
+		}
+
+		public void actionPerformed(ActionEvent e) {
+			setBackground(colorFondo);
+		}
+	}
+}

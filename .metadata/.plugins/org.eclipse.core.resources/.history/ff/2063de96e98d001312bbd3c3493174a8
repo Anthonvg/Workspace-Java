@@ -1,0 +1,21 @@
+package fes.aragon;
+
+public class Computadora {
+	private String sistemaOperativo;
+	private String memoriaRam;
+	private String discoDuro;
+	private String procesador;
+	private String tarjetaVideo;
+	private String tarjetaMadre;
+	public 	double costo;
+	public  String modelo;
+	
+	public Computadora () {
+		costo=50.0;
+	}
+
+	public String getModelo() {
+		return modelo;
+	}
+	
+}

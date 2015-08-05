@@ -1,0 +1,13 @@
+package fes.aragon.swing;
+
+import java.awt.Graphics;
+
+import javax.swing.JPanel;
+
+public class Lamina1 extends JPanel{
+	public void paintComponent(Graphics g){
+		super.paintComponent(g);
+		g.drawString("Puto el que esta <------------>", 10, 100);
+	}
+
+}

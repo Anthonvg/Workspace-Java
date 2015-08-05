@@ -1,0 +1,11 @@
+package fes.aragon;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		computadora computadora1 = new Computadora();
+		System.out.println(computadora1.costo);
+
+	}
+
+}

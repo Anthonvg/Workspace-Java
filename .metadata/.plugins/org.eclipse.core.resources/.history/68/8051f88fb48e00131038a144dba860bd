@@ -1,0 +1,27 @@
+package fes.aragon;
+
+public class Principal {
+
+	public static void main(String[] args) { //Esto es el menu principal
+		Computadora computadora1 = new Computadora();
+		Computadora computadora2 = new Computadora(60000.00);
+		
+		Celular celular1 = new Celular();
+		Celular celular2 = new Celular(100.00);
+		
+		
+		//Impresion en pantalla
+		System.out.println(computadora1.costo);
+		System.out.println(computadora2.costo);
+		System.out.println(computadora1.getModelo());//Metodo get para atributos private
+		System.out.println("----------------------");
+		System.out.println(celular1.costo);
+		System.out.println(celular2.costo);
+		System.out.println(celular1.getCompa–ia());
+		
+		
+		
+
+	}
+
+}

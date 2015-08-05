@@ -1,0 +1,47 @@
+{
+  "\\Library\\Java\\JavaVirtualMachines\\jdk1.7.0_45.jdk\\Contents\\Home\\jre\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "\\Library\\Java\\JavaVirtualMachines\\jdk1.7.0_45.jdk\\Contents\\Home\\jre\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "\\Volumes\\ANTHON 3\\workspace\\Semana 2\\src": {
+    "location": "\\Volumes\\ANTHON 3\\workspace\\Semana 2\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Volumes/ANTHON 3/workspace/Semana 2/src\u0027. Skipped."
+  },
+  "G:\\workspace\\Semana 2\\src": {
+    "location": "G:\\workspace\\Semana 2\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027G:\\workspace\\Semana 2\\src\u0027. Skipped."
+  },
+  "C:\\Program Files\\Java\\jre7\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "E:\\workspace\\Semana 3\\src": {
+    "location": "E:\\workspace\\Semana 3\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\workspace\\Semana 3\\src\u0027. Skipped."
+  },
+  "H:\\workspace\\Semana 3A\\src": {
+    "location": "H:\\workspace\\Semana 3A\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027H:\\workspace\\Semana 3A\\src\u0027. Skipped."
+  },
+  "E:\\workspace\\Semana 4A\\src": {
+    "location": "E:\\workspace\\Semana 4A\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\workspace\\Semana 4A\\src\u0027. Skipped."
+  },
+  "E:\\workspace\\Semana 8\\src": {
+    "location": "E:\\workspace\\Semana 8\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\workspace\\Semana 8\\src\u0027. Skipped."
+  },
+  "E:\\workspace\\Semana 8A\\src": {
+    "location": "E:\\workspace\\Semana 8A\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027E:\\workspace\\Semana 8A\\src\u0027. Skipped."
+  }
+}

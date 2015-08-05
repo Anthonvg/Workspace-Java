@@ -1,0 +1,28 @@
+package fes.aragon.serializable;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutput;
+import java.io.ObjectOutputStream;
+
+public class EscrituraObjeto {
+
+	public static void main(String[] args) {
+		try {
+			File f = new File (System.getProperty("user.dir")+"/dat/Datos2");
+			FileOutputStream fw = new FileOutputStream(f,true);
+			ObjectOutputStream es = new ObjectOutputStream(fw);
+			es.writeObject(new Persona("Londres",1989));
+			es.close();
+		} catch (FileNotFoundException ex) {
+			// TODO: handle exception
+			ex.printStackTrace();
+		}catch (IOException ex) {
+			ex.printStackTrace();
+		}
+
+	}
+
+}

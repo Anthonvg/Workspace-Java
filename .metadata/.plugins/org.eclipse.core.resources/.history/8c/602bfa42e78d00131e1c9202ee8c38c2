@@ -1,0 +1,10 @@
+package fes.aragon;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Computadora computadora1 = new Computadora();
+
+	}
+
+}

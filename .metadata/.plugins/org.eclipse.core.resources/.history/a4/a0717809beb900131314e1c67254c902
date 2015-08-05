@@ -1,0 +1,16 @@
+package fes.aragon.prueba;
+
+import javax.swing.JFrame;
+
+import fes.aragon.swing.Marcos;
+
+public class PruebaMarco {
+
+	public static void main(String[] args) {
+		Marcos ap = new Marcos ();
+		ap.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		ap.setVisible(false);
+
+	}
+
+}

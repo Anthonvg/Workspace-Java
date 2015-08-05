@@ -1,0 +1,17 @@
+package fes.aragon;
+
+public class Celular {
+	private String sistemaOperativo;
+	private String modelo;
+	private String compa–ia;
+	private String memoria;
+	private String procesador;
+	private String pantalla;
+	public double  costo;
+	public int numeroTelefonico;
+	public int imei;
+	
+	public Celular(){
+		costo=300;
+	}
+}

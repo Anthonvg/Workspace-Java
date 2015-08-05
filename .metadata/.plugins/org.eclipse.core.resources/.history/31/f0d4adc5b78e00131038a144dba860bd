@@ -1,0 +1,23 @@
+package fes.aragon;
+
+public class Libreria {
+	private String libreriaNombre;
+	private int salas;
+	private String materias;
+	private int numeroLibros;
+	public int mesas;
+	public int sillas;
+	public int personal;
+	public int computadoras;
+	
+	public Libreria (){
+		mesas=54;
+	}
+	public Libreria (int mesas){
+		this.mesas=mesas;
+	}
+	public String getLibreriaNombre() {
+		this.libreriaNombre="Algarabia";
+		return libreriaNombre;
+	}
+}

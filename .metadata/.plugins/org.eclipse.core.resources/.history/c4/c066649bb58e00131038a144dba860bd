@@ -1,0 +1,17 @@
+package fes.aragon;
+
+public class Automovil {
+	private String motor;
+	private int puertas;
+	private int cilindros;
+	private String caballos;
+	private String transmision;
+	private String frenos;
+	private String marca;
+	private String modelo;
+	private String a–o;
+	public int llantas;
+	public String confort;
+	public String kilometraje;
+
+}
